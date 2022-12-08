@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programmation orientee objet</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color:cadetblue;
+        }
+        h3{
+            color: crimson;
+        }
+        li{
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        p{
+            width: 80em;
+        }
+    </style>
+    <center>
+        <h1>Programmation Orientee Objet</h1>
+        <br><br>
+        <h3>Introduction : </h3>
+        <hr noshade size="10" width="500">
+        
+        <p>La <strong>Programmation Orientee Objet(P.O.O)</strong> peut se definir comme une paradigme de Programmation qui repose sur
+            le concept de classe et d'objet.
+            Le mot "orientee-objet" est la combinaison de deux termes, objet et orientee. Dans le dictionnaire,
+            objet signifie quelque chose qui existe dans la vie reel et oriente signifie, focalise sur un type
+            particulier de chose ou d'entite(objet).
+            Dans les prochaines lignes nous parlerons de la <strong>structure de la P.O.O</strong>
+            , ensuite des <strong>pilliers de la P.O.O.</strong>            
+        </p><br><br><br>
+
+        <h3>Structure de la Programmation Orientee Objet : </h3>
+        <hr noshade size="10" width="800">
+
+        <p>Dans une structure de code basee sur la <strong>P.O.O</strong> comporte de nombreuses parties,
+        donc programmer a chaque fois la meme serais fastidieux. Pour repondre a ce probleme nous utilisons 
+        ce qu'on appelle des <strong>classes, objets, methodes et attributs.</strong></p>
+        <br>
+        <ol type="I">
+            <li>LES CLASSES : </li>
+            <p>Les classes sont des types de données définis par l'utilisateur qui servent de schéma directeur pour les objets, 
+                les attributs et les méthodes, c'est a dire qu'une classe est un ensemble de code contenant des variables 
+                et des fonctions permettant de créer des objets. Une classe peut contenir plusieurs objets. 
+            </p>
+
+            <li>LES OBJETS : </li>
+            <p>Un objet est un bloc de code mêlant des variables et des 
+                fonctions, appelées respectivement attributs et méthodes.
+            </p>
+
+            <li>LES ATTRIBUTS : </li>
+            <p>Les attributs définissent les caractéristiques d’un objet d’une classe. Les objets contiennent
+                des données stockees dans le champ d'un attribut.
+            </p>
+
+            <li>LES METHODES : </li>
+            <p>Ce sont des fonctions qui sont definies dans une classe, qui decrivent le comportement d'un 
+                objet. Ils sont utiles pour leur <em>reutilisabilite</em> ou gardent une fonctionnalite encapsule
+                dans un objet pendant un moment. La reutilisabilite d'un code est tres benefique lorsque nous
+                deboguons notre code.
+            </p>
+        </ol><br><br><br>
+
+        <h3>Les principes de la P.O.O. : </h3>
+        <hr noshade size="10" width="800">
+        <p>Afin de savoir comment écrire un bon code POO, nous devons comprendre les 4 piliers de la POO auxquels
+            nous devons adhérer :
+
+            Encapsulation
+            Abstraction
+            Héritage
+            Polymorphisme
+        
+        Plongeons dans le vif du sujet et comprenons mieux ce que chacun de ces piliers signifie exactement.</p>
+        <ol type="I">
+            <li>Encapsulation</li>
+            <p>C'est le concept qui lie les données entre elles. Les fonctions manipulent l'information et la 
+                gardent en sécurité. Aucun accès direct n'est accordé à l'info au cas où elle serait cachée.
+                 Si vous souhaitez avoir accès à l'info, vous devez interagir avec l'article en charge de l'info.
+
+                Si vous êtes employé dans une entreprise, il y a de fortes chances que vous ayez eu une expérience de l'encapsulation.
+                
+                Pensez à un département des ressources humaines. Les membres du personnel des ressources humaines
+                 encapsulent (cachent) les données relatives aux employés. Ils déterminent comment ces données 
+                 seront utilisées et manipulées. Toute demande de données sur les travailleurs ou toute demande 
+                 de mise à jour des informations doit être acheminée par eux.
+                
+                En encapsulant les données, vous rendez les informations de votre système plus sûres et plus 
+                fiables. Vous êtes également en mesure de surveiller l'accès aux informations et les opérations 
+                qui sont effectuées sur celles-ci. Cela facilite la maintenance des programmes et simplifie le
+                 processus de débogage.
+                
+            </p>
+
+            <li>Abstraction : </li>
+            <p>L'abstraction consiste à utiliser des classes simples pour représenter la complexité. Fondamentalement, nous utilisons l'abstraction pour gérer la complexité en permettant à 
+                l'utilisateur de ne voir que les informations pertinentes et utiles.
+
+                Un bon exemple pour expliquer cela est la conduite d'une voiture automatique. 
+                Lorsque vous avez une voiture automatique et que vous voulez vous rendre d'un point A 
+                à un point B, tout ce que vous devez faire est de lui donner la destination et de démarrer la voiture. 
+                Elle vous conduira ensuite à votre destination.
+                
+                Ce que vous n'avez pas besoin de savoir, c'est comment la voiture est fabriquée, 
+                comment elle prend et suit correctement les instructions, comment elle filtre les différentes options pour 
+                trouver le meilleur itinéraire, etc.
+                
+                Le même concept est appliqué lors de la construction d'applications OOP. Vous y parvenez en masquant les 
+                détails que l'utilisateur n'a pas besoin de voir. L'abstraction facilite les choses et vous permet de traiter 
+                vos projets en petites parties gérables.
+            </p>
+
+            <li>Heritages : </li>
+            <p>L'héritage permet aux classes d'hériter des caractéristiques d'autres classes. 
+                Par exemple, vous pouvez classer tous les chats ensemble car ils ont certaines caractéristiques 
+                communes, comme le fait d'avoir quatre pattes. Leurs races les classent ensuite en sous-groupes 
+                ayant des attributs communs, comme la taille et la couleur.
+
+                Dans la POO, vous utilisez l'héritage pour classer les objets de vos programmes en fonction de 
+                leurs caractéristiques et performances communes. Cela facilite le travail avec les objets et la 
+                programmation, car cela vous permet de mélanger des caractéristiques générales dans un objet 
+                parent et d'hériter de ces caractéristiques dans les objets enfants.
+                
+                Par exemple, vous allez définir un objet employé qui définit toutes les caractéristiques
+                générales des employés de votre entreprise.
+                
+                Vous pourrez ensuite définir un objet "manager" qui hérite des caractéristiques de 
+                l'objet "employé", mais qui ajoute également des caractéristiques propres aux managers de 
+                votre entreprise. L'objet manager reflétera automatiquement tout changement dans 
+                l'implémentation de l'objet employé.
+            </p>
+
+            <li>Polymorphisme </li>
+            <p>C'est le pouvoir de deux objets différents de répondre à un formulaire. Le programme déterminera 
+                quel usage est critique pour chaque exécution de la chose à partir de la classe parente, ce qui réduit la 
+                duplication du code. 
+                Il permet également à différents types d'objets d'interagir avec la même interface.
+            </p>
+
+            <h3>exemple de langages de Programmation Orientee Objet : </h3>
+            <hr noshade size="10" width="800">
+
+            <ul>
+                <li>Scala</li>
+                <li>Emerald</li>
+                <li>Ruby</li>
+                <li>JADE</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+                <li>Visula Basic.NET</li>
+                <li>PHP</li>
+            </ul><br>
+            <p>Et plein d'autres.</p>
+
+        </ol><br><br><br>
+
+        <h3>CONCLUSION : </h3>
+        <hr noshade size="10" width="800">
+
+        <p>Aujourd'hui, la plupart des langages permettent aux développeurs de mélanger les paradigmes de 
+            programmation. Cela est souvent dû au fait qu'ils seront utilisés pour diverses méthodes de programmation.
+
+            Par exemple, prenez JavaScript - vous pouvez l'utiliser à la fois pour la programmation 
+            orientée objet et la programmation fonctionnelle. Lorsque vous codez du JS orienté objet,
+             vous devez réfléchir soigneusement à la structure du programme et la planifier dès le début du 
+             codage. Vous pouvez le faire en voyant comment vous allez pouvoir décomposer les éléments 
+             nécessaires en classes simples et réutilisables qui seront utilisées pour créer des instances 
+             d'objets.
+            
+            Les développeurs travaillant avec la POO s'accordent généralement à dire qu'en général, 
+            son utilisation permet d'améliorer les structures de données et la réutilisabilité du code. 
+            Cela permet de gagner du temps sur le long terme.</p>
+    </center>
+</body>
+</html>
